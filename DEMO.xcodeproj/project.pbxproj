@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA948EF1F0F3C4000AF3A20 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDA948EC1F0F3C4000AF3A20 /* 13.jpg */; };
+		DDA948F01F0F3C4000AF3A20 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDA948ED1F0F3C4000AF3A20 /* 14.jpg */; };
+		DDA948F11F0F3C4000AF3A20 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDA948EE1F0F3C4000AF3A20 /* 12.jpg */; };
 		DDCB91EA1F0D05EE00733AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB91E91F0D05EE00733AC1 /* main.m */; };
 		DDCB91ED1F0D05EE00733AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB91EC1F0D05EE00733AC1 /* AppDelegate.m */; };
 		DDCB91F01F0D05EE00733AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB91EF1F0D05EE00733AC1 /* ViewController.m */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDA948EC1F0F3C4000AF3A20 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		DDA948ED1F0F3C4000AF3A20 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		DDA948EE1F0F3C4000AF3A20 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
 		DDCB91E51F0D05EE00733AC1 /* DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB91E91F0D05EE00733AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDCB91EB1F0D05EE00733AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 		DDCB91E71F0D05EE00733AC1 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				DDA948EC1F0F3C4000AF3A20 /* 13.jpg */,
+				DDA948ED1F0F3C4000AF3A20 /* 14.jpg */,
+				DDA948EE1F0F3C4000AF3A20 /* 12.jpg */,
 				DDCB91EB1F0D05EE00733AC1 /* AppDelegate.h */,
 				DDCB91EC1F0D05EE00733AC1 /* AppDelegate.m */,
 				DDCB91EE1F0D05EE00733AC1 /* ViewController.h */,
@@ -252,7 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA948F01F0F3C4000AF3A20 /* 14.jpg in Resources */,
 				DDCB91F81F0D05EE00733AC1 /* LaunchScreen.storyboard in Resources */,
+				DDA948F11F0F3C4000AF3A20 /* 12.jpg in Resources */,
+				DDA948EF1F0F3C4000AF3A20 /* 13.jpg in Resources */,
 				DDCB91F51F0D05EE00733AC1 /* Assets.xcassets in Resources */,
 				DDCB91F31F0D05EE00733AC1 /* Main.storyboard in Resources */,
 			);
