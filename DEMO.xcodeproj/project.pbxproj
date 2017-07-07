@@ -15,6 +15,7 @@
 		DDCB91F81F0D05EE00733AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB91F61F0D05EE00733AC1 /* LaunchScreen.storyboard */; };
 		DDCB92031F0D05EE00733AC1 /* DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB92021F0D05EE00733AC1 /* DEMOTests.m */; };
 		DDCB920E1F0D05EE00733AC1 /* DEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB920D1F0D05EE00733AC1 /* DEMOUITests.m */; };
+		DDCB921D1F0D08DA00733AC1 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB921C1F0D08DA00733AC1 /* DetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDCB92091F0D05EE00733AC1 /* DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB920D1F0D05EE00733AC1 /* DEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMOUITests.m; sourceTree = "<group>"; };
 		DDCB920F1F0D05EE00733AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCB921B1F0D08DA00733AC1 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		DDCB921C1F0D08DA00733AC1 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DDCB91EC1F0D05EE00733AC1 /* AppDelegate.m */,
 				DDCB91EE1F0D05EE00733AC1 /* ViewController.h */,
 				DDCB91EF1F0D05EE00733AC1 /* ViewController.m */,
+				DDCB921B1F0D08DA00733AC1 /* DetailView.h */,
+				DDCB921C1F0D08DA00733AC1 /* DetailView.m */,
 				DDCB91F11F0D05EE00733AC1 /* Main.storyboard */,
 				DDCB91F41F0D05EE00733AC1 /* Assets.xcassets */,
 				DDCB91F61F0D05EE00733AC1 /* LaunchScreen.storyboard */,
@@ -207,7 +212,8 @@
 				TargetAttributes = {
 					DDCB91E41F0D05EE00733AC1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = FLN339CM8A;
+						ProvisioningStyle = Manual;
 					};
 					DDCB91FD1F0D05EE00733AC1 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDCB91F01F0D05EE00733AC1 /* ViewController.m in Sources */,
+				DDCB921D1F0D08DA00733AC1 /* DetailView.m in Sources */,
 				DDCB91ED1F0D05EE00733AC1 /* AppDelegate.m in Sources */,
 				DDCB91EA1F0D05EE00733AC1 /* main.m in Sources */,
 			);
@@ -422,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FLN339CM8A;
 				INFOPLIST_FILE = DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starunionTest.HFDemo.DEMO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starunionTest.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "83f00be5-0e21-4884-ae51-45c55216b61c";
+				PROVISIONING_PROFILE_SPECIFIER = "通配符-0405";
 			};
 			name = Debug;
 		};
@@ -433,10 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FLN339CM8A;
 				INFOPLIST_FILE = DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starunionTest.HFDemo.DEMO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starunionTest.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "83f00be5-0e21-4884-ae51-45c55216b61c";
+				PROVISIONING_PROFILE_SPECIFIER = "通配符-0405";
 			};
 			name = Release;
 		};
@@ -505,6 +520,7 @@
 				DDCB92141F0D05EE00733AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCB92151F0D05EE00733AC1 /* Build configuration list for PBXNativeTarget "DEMOTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +529,7 @@
 				DDCB92171F0D05EE00733AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCB92181F0D05EE00733AC1 /* Build configuration list for PBXNativeTarget "DEMOUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +538,7 @@
 				DDCB921A1F0D05EE00733AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
